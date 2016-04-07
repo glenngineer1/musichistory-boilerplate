@@ -1,0 +1,36 @@
+/* Navigation Window */
+
+nav {
+  border: 2px solid black;
+  display: block;
+  margin: 5% 15%;
+  background-color: #FFB4B0;
+}
+
+ul#bullets {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.view-music {
+  padding: .5em;
+  border-right: 2px solid black;
+}
+
+.add-music {
+  padding: .5em;
+  border-right: 2px solid black;
+}
+
+.profile {
+  padding: .5em;
+}
+
+/* Options Select */
+
+
+
+/* Song Names */
