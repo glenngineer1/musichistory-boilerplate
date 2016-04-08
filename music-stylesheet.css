@@ -32,9 +32,10 @@ li {
 
 .option {
   border: 2px solid black;
-  margin: 1% 67% 1% 15%;
+  margin: 1% 0 0 15%;
   background-color: #4DD7FA;
-  padding: 10px;
+  padding: 10px 25px 10px 15px;
+  float: left;
 }
 
 div.genre-left {
@@ -44,7 +45,7 @@ div.genre-left {
 
  div.genre-right {
   float: right;
-  padding: 0 50px 0 0;
+  padding: 0 25px 0;
  }
 
  .submit {
@@ -59,6 +60,48 @@ div.genre-left {
   margin-top: -5px 0 0;
 }
 
+.artist {
+  width: 155px;
+}
+
+.album {
+  width: 155px;
+}
+
+/* Song Names */
+
+
+
+div.songs {
+  border: 2px solid #000;
+  /*border-right: 100em;*/
+  background-color: #FEFAC0;
+  color: #785616;
+  float: left;
+  margin: 1% 15% 0 1%;
+  padding: 15px 322px 1px 0;
+}
+
+.song-width li {
+  display: inline;
+  padding: 0 1em 0 0;
+  border-right: 1px solid black;
+  font-size: .90em;
+}
+
+p.song-name {
+  padding: 0 0 0 40px;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.album-name {
+  margin-left: 10px;
+}
+
+.genre {
+  margin-left: 10px;
+}
 
 
 
@@ -69,4 +112,4 @@ div.genre-left {
 
 
 
-/* Song Names
+
