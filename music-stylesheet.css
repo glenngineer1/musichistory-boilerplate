@@ -1,9 +1,10 @@
-/* Navigation Window */
 
-nav {
+
+  /* Navigation Window */
+
+.top-nav {
   border: 2px solid black;
-  display: block;
-  margin: 5% 15%;
+  margin: 5% 15% 0%;
   background-color: #FFB4B0;
 }
 
@@ -16,21 +17,56 @@ li {
 }
 
 .view-music {
-  padding: .5em;
+  padding: 0 .25em 0 0;
   border-right: 2px solid black;
 }
 
 .add-music {
-  padding: .5em;
+  padding: 0 .25em 0 0;
   border-right: 2px solid black;
 }
 
-.profile {
-  padding: .5em;
-}
 
 /* Options Select */
 
 
+.option {
+  border: 2px solid black;
+  margin: 1% 67% 1% 15%;
+  background-color: #4DD7FA;
+  padding: 10px;
+}
 
-/* Song Names */
+div.genre-left {
+  float: left;
+  margin-left: 5px;
+ }
+
+ div.genre-right {
+  float: right;
+  padding: 0 50px 0 0;
+ }
+
+ .submit {
+  clear: both;
+  width: 120px;
+  margin: 10px auto 2px;
+  padding: 4px;
+ }
+
+.song-legnth {
+  padding: 0;
+  margin-top: -5px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Song Names
