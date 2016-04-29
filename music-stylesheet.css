@@ -72,36 +72,55 @@ div.genre-left {
 
 
 
-div.songs {
+div#songs {
   border: 2px solid #000;
-  /*border-right: 100em;*/
   background-color: #FEFAC0;
   color: #785616;
   float: left;
-  margin: 1% 15% 0 1%;
-  padding: 15px 322px 1px 0;
+  margin: 1%;
+  padding: 1px 2px 3px 0;
+  width: 646px;
 }
 
-.song-width li {
+.title-song {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.3em;
+}
+
+.artist-song {
+  display: block;
+  font-size: 1.1em;
+  padding: 4.6px;
+}
+
+.album-song {
+  display: block;
+  font-size: 1.1em;
+  padding: 4.6px;
+}
+
+/*.songs-width li {
   display: inline;
   padding: 0 1em 0 0;
   border-right: 1px solid black;
   font-size: .90em;
-}
+}*/
 
-p.song-name {
+/*p.songs-name {
   padding: 0 0 0 40px;
   font-size: 1.4em;
   font-weight: 700;
-}
+}*/
 
-.album-name {
+/*.album-name {
   margin-left: 10px;
-}
+}*/
 
-.genre {
+/*.genre {
   margin-left: 10px;
-}
+}*/
 
 
 
