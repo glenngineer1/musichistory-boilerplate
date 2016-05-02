@@ -101,6 +101,12 @@ div#songs {
   padding: 4.6px;
 }
 
+#deleteButton {
+  font-size: .7em;
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
 /*.songs-width li {
   display: inline;
   padding: 0 1em 0 0;
