@@ -14,25 +14,23 @@ var songList = document.getElementById("songs");
 songList.addEventListener("click", removeElement);
 
 function removeElement(event) {
-    // Removes an element from the document
-    // var element = document.getElementById(songList);
-    event.target.remove();
-    console.log("",event);
+    // event.target(all).remove();
+    console.log("",event.all);
 }
 
 for( currentSong in data.songs) {
   var songData = "";
   var song = data.songs[currentSong];
+  songData += "<div class='all'>";
   songData += "<div class='title-song'>Song Title: ";
   songData += song.title;
-  songData += "<input type='button' id='deleteButton' value='delete'></input>"
   songData += "</div>";
   songData += "<div class='artist-song'>Performed by: ";
   songData += song.artist;
-  songData += "<input type='button' id='deleteButton' value='delete'></input>"
   songData += "</div>";
   songData += "<div class='album-song'>On the album: ";
   songData += song.album;
+  songData += "</div>";
   songData += "<input type='button' id='deleteButton' value='delete'></input>"
   songData += "</div>";
 
