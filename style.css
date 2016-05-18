@@ -1,0 +1,32 @@
+/*Navigation Bar*/
+
+.nav-bar {
+  background-color: #FFB4B0;
+  border: 2px solid black;
+  width: 80%;
+  margin: 10px 10%;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+/*Left Window*/
+
+.left-window {
+  margin: 10px 10%;
+  width: 20%;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #4DD7FA;
+}
+
+/*Song Name Window*/
+
+.song-name {
+  /*float: right;*/
+  background-color: #FEFAC0;
+  color: #785616;
+  float: right;
+}
