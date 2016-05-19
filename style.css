@@ -15,18 +15,88 @@
 /*Left Window*/
 
 .left-window {
-  margin: 10px 10%;
-  width: 20%;
+  margin-left: 10%;
+  width: 16%;
   border: 2px solid black;
-  padding: 10px;
+  display: inline-block;
   background-color: #4DD7FA;
+}
+
+.song-length {
+  padding: 10px 10px 5px 5px;
+}
+
+.slider {
+  width: 180px;
+}
+
+.select {
+  width: 180px;
+}
+
+.artist {
+  padding: 10px 10px 5px 5px;
+}
+
+.artist-name {
+  padding: 8px 10px 5px 0;
+}
+
+.album {
+  padding: 10px 10px 5px 5px;
+}
+
+.album-name {
+  padding: 8px 10px 5px 0;
+}
+
+.genre {
+  padding: 10px 10px 5px 5px;
+}
+
+.checkbox-left {
+  list-style-type: none;
+  float: left;
+  margin-left: -12%;
+}
+
+.checkbox-left li {
+  padding-bottom: 3px;
+}
+
+.checkbox-right {
+  list-style-type: none;
+  float: right;
+  margin-right: 1px;
+}
+
+.checkbox-right li {
+  padding-bottom: 3px;
+}
+
+.filter {
+  clear: both;
+}
+
+.filter-button {
+  margin-left: 55px;
+  width: 100px;
+  height: 25px;
+  border-radius: 10%;
 }
 
 /*Song Name Window*/
 
 .song-name {
-  /*float: right;*/
   background-color: #FEFAC0;
   color: #785616;
+  margin-right: 10%;
+  border: 2px solid black;
+  width: 55%;
   float: right;
+}
+
+.song {
+  margin-left: 5px;
+  font-size: 1.5em;
 }

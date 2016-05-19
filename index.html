@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Music History</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <!-- <link rel="stylesheet" type="text/css" href="normalize.css"> -->
 </head>
 
 <body>
@@ -14,8 +14,10 @@
 
   <nav class="nav-bar">
     <ul>
-      <li><a href="" title="">View Music</a></li>
+      <li><title="view music">View Music</a></li>
+      <label for="spacer">|</label>
       <li><a href="#" title="">Add Music</a></li>
+      <label for="spacer">|</label>
       <li><a href="#" title="">Profile</a></li>
     </ul>
   </nav>
@@ -24,18 +26,18 @@
 
   <fieldset class="left-window">
     <div>
-      <div>
+      <div class="song-length">
         <label for="song length">Song Length:</label>
       </div>
       <div>
-        <input type="range" name="">
+        <input class="slider" type="range" name="">
       </div>
     </div>
 
-    <div>
+    <div class="artist">
       <label for="Artist">Artist:</label>
-      <div>
-        <select name="Artist">
+      <div class="artist-name">
+        <select class="select" name="Artist">
           <option value="van halen">Van Halen</option>
           <option value="asia">Asia</option>
           <option value="lissie" selected>Lissie</option>
@@ -45,10 +47,10 @@
       </div>
     </div>
 
-    <div>
+    <div class="album">
       <label for="Album">Album:</label>
-      <div>
-        <select name="Album">
+      <div class="album-name">
+        <select class="select" name="Album">
           <option value="van halen">Van Halen</option>
           <option value="van halen 2">Van Halen II</option>
           <option value="women and children first">Women and Children First</option>
@@ -67,56 +69,65 @@
     </div>
 
     <div>
-      <label for="genre">Genre:</label>
+      <label  class="genre" for="genre">Genre:</label>
       <div>
-        <div class="checkbox-left">
-          <input type="checkbox" name="genre">Rock
-          <input type="checkbox" name="genre">Pop
-          <input type="checkbox" name="genre">Blues
-        </div>
-        <div class="checkbox-right">
-          <input type="checkbox" name="genre">Alternative
-          <input type="checkbox" name="genre">Singer-Songwriter
-          <input type="checkbox" name="genre">Progressive Rock
-        </div>
+        <ul class="checkbox-left">
+          <li><input type="checkbox" name="genre">Rock</li>
+          <li><input type="checkbox" name="genre">Pop</li>
+          <li><input type="checkbox" name="genre">Blues</li>
+        </ul>
+
+        <ul class="checkbox-right">
+          <li><input type="checkbox" name="genre">Alternative</li>
+          <li><input type="checkbox" name="genre">Americana</li>
+          <li><input type="checkbox" name="genre">Progressive</li>
+        </ul>
       </div>
     </div>
-    <div>
-      <button type="submit">Filter</button>
+    <div class="filter">
+      <button class="filter-button" type="submit">Filter</button>
     </div>
   </fieldset>
 
 <!-- Song Name Window -->
 
   <fieldset class="song-name">
-    <div>
-      <label for="song name">Song Name</label>
+    <div class="song">
+      <p>Song Name</p>
     </div>
     <div>
       <label for="artist name">Artist Name</label>
+      <label for="spacer">|</label>
       <label for="album name">Album Name</label>
+      <label for="spacer">|</label>
       <label for="genre">Genre</label>
     </div>
-    <div>
-      <label for="song name">Song Name</label>
+    <div class="song">
+      <p>Song Name</p>
     </div>
     <div>
       <label for="artist name">Artist Name</label>
+      <label for="spacer">|</label>
       <label for="album name">Album Name</label>
+      <label for="spacer">|</label>
       <label for="genre">Genre</label>
     </div>
-    <div>
-      <label for="song name">Song Name</label>
+    <div class="song">
+      <p>Song Name</p>
     </div>
       <label for="artist name">Artist Name</label>
+      <label for="spacer">|</label>
       <label for="album name">Album Name</label>
+      <label for="spacer">|</label>
       <label for="genre">Genre</label>
     </div>
-    <div>
-      <label for="song name">Song Name</label>
+    <div class="song">
+      <p>Song Name</p>
     </div>
       <label for="artist name">Artist Name</label>
+      <label for="spacer">|</label>
       <label for="album name">Album Name</label>
+      <label for="spacer">|</label>
       <label for="genre">Genre</label>
     </div>
   </fieldset>
