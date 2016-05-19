@@ -23,35 +23,41 @@
 }
 
 .song-length {
-  padding: 10px 10px 5px 5px;
+  padding: 15px 10px 5px 5px;
 }
 
 .slider {
+  padding-top: 5px;
   width: 180px;
 }
 
 .select {
   width: 180px;
+  border: 2px solid black;
 }
 
 .artist {
-  padding: 10px 10px 5px 5px;
+  padding: 15px 10px 5px 5px;
 }
 
 .artist-name {
-  padding: 8px 10px 5px 0;
+  padding: 13px 10px 5px 0;
 }
 
 .album {
-  padding: 10px 10px 5px 5px;
+  padding: 15px 10px 5px 5px;
 }
 
 .album-name {
-  padding: 8px 10px 5px 0;
+  padding: 13px 10px 15px 0;
 }
 
 .genre {
   padding: 10px 10px 5px 5px;
+}
+
+.checkbox {
+  outline: 1px solid black;
 }
 
 .checkbox-left {
@@ -61,17 +67,17 @@
 }
 
 .checkbox-left li {
-  padding-bottom: 3px;
+  padding-bottom: 4px;
 }
 
 .checkbox-right {
   list-style-type: none;
   float: right;
-  margin-right: 1px;
+  padding-left: 0px;
 }
 
 .checkbox-right li {
-  padding-bottom: 3px;
+  padding-bottom: 4px;
 }
 
 .filter {
@@ -83,6 +89,7 @@
   width: 100px;
   height: 25px;
   border-radius: 10%;
+  border: 2px solid black;
 }
 
 /*Song Name Window*/
@@ -90,13 +97,28 @@
 .song-name {
   background-color: #FEFAC0;
   color: #785616;
-  margin-right: 10%;
+  margin-right: 9.7%;
   border: 2px solid black;
-  width: 55%;
+  width: 59.5%;
   float: right;
 }
 
 .song {
-  margin-left: 5px;
-  font-size: 1.5em;
+  margin: 0 0 0 15px;
+  font-size: 1.6em;
+  /*padding-bottom: 5px;*/
+}
+
+p {
+  margin: 13.5px;
+}
+
+.info {
+  margin-left: 28px;
+  color: black;
+  padding: 0 0 18.5px;
+}
+
+.spacer {
+  padding: 0 10px;
 }
