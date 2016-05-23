@@ -109,6 +109,11 @@
   /*padding-bottom: 5px;*/
 }
 
+.song div {
+  margin: 20px;
+  padding: 11.9px;
+}
+
 p {
   margin: 13.5px;
 }
