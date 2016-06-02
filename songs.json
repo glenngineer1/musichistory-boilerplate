@@ -1,0 +1,24 @@
+{
+  "songs":[
+    {
+      "title": "Cry Ophelia",
+      "album": "Adam Cohen",
+      "artist": "Adam Cohen"
+    },
+    {
+      "title": "Unchained",
+      "album": "Fair Warning",
+      "artist": "Van Halen"
+    },
+    {
+      "title": "Don't You Give Up On Me",
+      "album": "My Wild West",
+      "artist": "Lissie"
+    },
+    {
+      "title": "One Night Love Affair",
+      "album": "Reckless",
+      "artist": "Bryan Adams"
+    }
+  ]
+}

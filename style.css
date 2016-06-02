@@ -105,16 +105,16 @@
 
 .song {
   margin: 0 0 0 15px;
-  font-size: 1.6em;
+  /*font-size: 1.6em;*/
   /*padding-bottom: 5px;*/
 }
 
-.song div {
+/*.song div {
   margin: 20px;
   padding: 11.9px;
-}
+}*/
 
-p {
+/*p {
   margin: 13.5px;
 }
 
@@ -126,4 +126,4 @@ p {
 
 .spacer {
   padding: 0 10px;
-}
+}*/
