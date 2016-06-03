@@ -1,0 +1,140 @@
+
+
+  /* Navigation Window */
+
+.top-nav {
+  border: 2px solid black;
+  margin: 5% 15% 0%;
+  background-color: #FFB4B0;
+}
+
+ul#bullets {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.view-music {
+  padding: 0 .25em 0 0;
+  border-right: 2px solid black;
+}
+
+.add-music {
+  padding: 0 .25em 0 0;
+  border-right: 2px solid black;
+}
+
+
+/* Options Select */
+
+
+.option {
+  border: 2px solid black;
+  margin: 1% 0 0 15%;
+  background-color: #4DD7FA;
+  padding: 10px 25px 10px 15px;
+  float: left;
+}
+
+div.genre-left {
+  float: left;
+  margin-left: 5px;
+ }
+
+ div.genre-right {
+  float: right;
+  padding: 0 25px 0;
+ }
+
+ .submit {
+  clear: both;
+  width: 120px;
+  margin: 10px auto 2px;
+  padding: 4px;
+ }
+
+.song-legnth {
+  padding: 0;
+  margin-top: -5px 0 0;
+}
+
+.artist {
+  width: 155px;
+}
+
+.album {
+  width: 155px;
+}
+
+/* Song Names */
+
+
+
+div#songs {
+  border: 2px solid #000;
+  background-color: #FEFAC0;
+  color: #785616;
+  float: left;
+  margin: 1%;
+  padding: 1px 2px 3px 0;
+  width: 646px;
+}
+
+.title-song {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.3em;
+}
+
+.artist-song {
+  display: block;
+  font-size: 1.1em;
+  padding: 4.6px;
+}
+
+.album-song {
+  display: block;
+  font-size: 1.1em;
+  padding: 4.6px;
+}
+
+#deleteButton {
+  font-size: .7em;
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
+.songs-width li {
+  display: inline;
+  padding: 0 1em 0 0;
+  border-right: 1px solid black;
+  font-size: .90em;
+}
+
+p.songs-name {
+  padding: 0 0 0 40px;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.album-name {
+  margin-left: 10px;
+}
+
+.genre {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
